@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <i class="fa-brands fa-tiktok"></i>
+               <h1>Mussic</h1>
+            </div>
+            <div class="links">
+                <ul>
+                    <li>Home</li>
+                    <li>Music</li>
+                    <li>Trinding</li>
+                    <li>Feature</li>
+                    <li>Store</li>
+                    
+                </ul>
+            </div>
+            <div class="btn">
+                <button>More</button>
+            </div>
+        </nav>
+        <div class="Box">
+            <div class="left">
+                <h1>Elavate Your  <br> Sound Experience</h1>
+                <p></p>
+                
+                    <img src="./image/128Dhaakad - Aamir Khan Version - Dangal 128 Kbps.jpg" alt="">
+                    <p>Dangal</p>
+                
+                <!-- <div class="btn_2">
+                    <button>Play Music</button>
+                    <button>Browse Music</button>
+                </div> -->
+                <!-- <div class="line">
+                 
+                    <h5>0.24</h5>
+                    <h5>0.24</h5>
+                </div> -->
+                <audio  class="song">
+                    <source src="./image/Dhaakad - Aamir Khan Version - Dangal 320 Kbps.mp3" type="audio/mpeg">
+                </audio>
+                <input type="range" value="0" class="progress">
+                <div class="icon">
+                    <!-- <i class="fa-solid fa-play"></i> -->
+                    <i class="fa-solid fa-backward"></i>
+                    <i class="fa-regular fa-circle-play" id="icon" onclick="playsong()"></i>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./musis.js"></script>
+</body>
+</html>
